@@ -43,7 +43,7 @@ function MovingModelSmall() {
   });
 
   return (
-    <group ref={ref} scale={[1.5, 1.5, 1.5]}>
+    <group ref={ref} scale={[1, 1, 1]}>
       <ModelSmall />
     </group>
   );
@@ -61,7 +61,7 @@ export function ToothModel() {
 
       {/* Model with Scroll Controls */}
       <Suspense fallback={null}>
-        <ScrollControls pages={2} damping={1.5}>
+        <ScrollControls pages={1} damping={1.5}>
           {/* Increases scroll effect */}
           <MovingModel />
         </ScrollControls>

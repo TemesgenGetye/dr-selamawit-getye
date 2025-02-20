@@ -50,7 +50,7 @@ export default function Home() {
         <ToothModel />
       </div>
 
-      <div className="fixed z-50 w-full h-64 overflow-visible left-[42%] top-96">
+      <div className="fixed z-50 right-0 w-[20%] m-auto h-full overflow-visible pointer-events-none">
         <ToothModelSmall />
       </div>
 
